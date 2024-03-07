@@ -1,0 +1,455 @@
+<!DOCTYPE html><html lang="zxx"><head><script type="text/javascript" class="silex-json-styles" data-silex-static="">
+    window.silex = window.silex || {}
+    window.silex.data = {"site":{"width":770},"pages":[{"id":"page-home","displayName":"Home","link":{"linkType":"LinkTypePage","href":"#!page-home"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"page-plans","displayName":"PLANS","link":{"linkType":"LinkTypePage","href":"#!page-plans"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"page-team","displayName":"Team","link":{"linkType":"LinkTypePage","href":"#!page-team"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"page-info","displayName":"Info","link":{"linkType":"LinkTypePage","href":"#!page-info"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false}]}</script>
+    <meta charset="UTF-8">
+    <meta name="generator" content="Silex v2.2.14">
+    <!-- leave this for stats -->
+    <script type="text/javascript" src="https://editor.silex.me/static/2.12/jquery.js" data-silex-static=""></script>
+    <script type="text/javascript" src="https://editor.silex.me/static/2.12/jquery-ui.js" data-silex-static="" data-silex-remove-publish=""></script>
+    <script type="text/javascript" src="https://editor.silex.me/static/2.12/pageable.js" data-silex-static="" data-silex-remove-publish=""></script>
+    <script type="text/javascript" src="https://editor.silex.me/static/2.12/front-end.js" data-silex-static=""></script>
+    <!-- Normalize -->
+    <link href="https://editor.silex.me/static/2.12/normalize.css" rel="stylesheet" data-silex-static="">
+    <!-- Silex style -->
+    <link href="https://editor.silex.me/static/2.12/front-end.css" rel="stylesheet" data-silex-static="">
+
+    <style class="silex-style">h1 {text-shadow: 0 0 5px #fefffd, 0 0 5px #fefffd, 0 0 5px #fefffd, 0 0 5px #fefffd, 0 0 10px #fefffd, 0 0 10px #fefffd, 0 0 10px #fefffd;}</style>
+    <script type="text/javascript" class="silex-script"></script>
+    <style class="silex-inline-styles">.body-initial {background-color: rgba(0,0,0,1); background-image: url(../../../../../../libs/templates/silex-templates/food-and-drink/assets/wood.jpg); background-position-x: 50%; background-position-y: 50%; background-size: auto; position: static;}.silex-id-1552774272342-11 {position: static; margin-top: -1px;}.silex-id-1552774272339-10 {min-height: 100px; position: relative; margin-left: auto; margin-right: auto;}.silex-id-1484949224320-1 {background-color: rgba(0,0,0,1); position: static; margin-top: -1px;}.silex-id-1484949224320-0 {background-color: transparent; min-height: 235px; position: relative; margin-left: auto; margin-right: auto;}.silex-id-1552774225668-8 {width: 33px; background-color: transparent; top: 100px; left: 686px; min-height: 27px; position: absolute;}.silex-id-1552774237438-9 {width: 100px; background-color: rgb(255, 255, 255); top: 100px; left: 653px; min-height: 100px; position: absolute;}.silex-id-1424710230648 {background-color: rgba(13,16,5,1); border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-color: rgb(0, 0, 0); left: 0px; top: -3px; width: 1397px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; min-height: 64px; position: absolute;}.silex-id-1434425184890-0 {left: 293.5874938964844px; top: 8.900115966796875px; width: 134px; min-height: 57px; position: absolute;}.silex-id-1434634286307-1 {left: 489.4000244140625px; top: 8.850006103515625px; width: 59px; min-height: 30px; position: absolute;}.silex-id-1434634331833-2 {background-color: rgba(221,224,165,1); left: 47px; top: 744px; width: 1393px; min-height: 58px; position: absolute;}.silex-id-1434634331834-3 {left: 599px; top: 8.537506103515625px; width: 219px; min-height: 41px; position: absolute;}.silex-id-1484949486466-5 {background-color: rgba(0,0,0,1); position: static; margin-top: -1px;}.silex-id-1484949486465-4 {background-color: transparent; min-height: 1638px; position: relative; margin-left: auto; margin-right: auto;}.silex-id-1484949640479-7 {background-color: transparent; position: static; margin-top: -1px;}.silex-id-1484949640479-6 {background-color: transparent; min-height: 780px; position: relative; margin-left: auto; margin-right: auto;}.silex-id-1434426485636-2 {left: 1px; top: 23px; width: 188px; background-color: rgb(254, 255, 253); border-top-width: 10px; border-right-width: 10px; border-bottom-width: 10px; border-left-width: 10px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(254, 255, 253); border-right-color: rgb(254, 255, 253); border-bottom-color: rgb(254, 255, 253); border-left-color: rgb(254, 255, 253); min-height: 201px; position: absolute;}.silex-id-1434426485665-3 {width: 740px; top: 23px; left: 199px; background-color: rgb(254, 255, 253); border-top-width: 10px; border-right-width: 10px; border-bottom-width: 10px; border-left-width: 10px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(254, 255, 253); border-right-color: rgb(254, 255, 253); border-bottom-color: rgb(254, 255, 253); border-left-color: rgb(254, 255, 253); min-height: 190px; position: absolute;}.silex-id-1434426787582-9 {width: 937px; top: 259px; left: 1px; background-color: rgb(254, 255, 253); border-top-width: 10px; border-right-width: 10px; border-bottom-width: 10px; border-left-width: 10px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; background-image: url(../../../../../../libs/templates/silex-templates/food-and-drink/assets/people.jpeg); background-size: cover; border-top-color: rgb(254, 255, 253); border-right-color: rgb(254, 255, 253); border-bottom-color: rgb(254, 255, 253); border-left-color: rgb(254, 255, 253); background-position-x: 50%; background-position-y: 50%; min-height: 244px; position: absolute;}.silex-id-1434426613625-5 {left: 751px; top: 541px; width: 188px; background-color: rgb(254, 255, 253); border-top-width: 10px; border-right-width: 10px; border-bottom-width: 10px; border-left-width: 10px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(254, 255, 253); border-right-color: rgb(254, 255, 253); border-bottom-color: rgb(254, 255, 253); border-left-color: rgb(254, 255, 253); min-height: 190px; position: absolute;}.silex-id-1434426613658-6 {width: 740px; top: 541px; left: 2px; background-color: rgb(254, 255, 253); border-top-width: 10px; border-right-width: 10px; border-bottom-width: 10px; border-left-width: 10px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(254, 255, 253); border-right-color: rgb(254, 255, 253); border-bottom-color: rgb(254, 255, 253); border-left-color: rgb(254, 255, 253); min-height: 190px; position: absolute;}.silex-id-1538167171167-15 {min-width: 960px; position: static; margin-top: -1px;}.silex-id-1538167171162-14 {min-height: 302px; position: relative; margin-left: auto; margin-right: auto;}.silex-id-1538167211265-17 {position: static; margin-top: -1px;}.silex-id-1538167211260-16 {min-height: 293px; position: relative; margin-left: auto; margin-right: auto;}.silex-id-1471343044963-3 {width: 959px; top: 5px; left: -1px; background-color: rgb(254, 255, 253); min-height: 261px; position: absolute;}.silex-id-1425063986632 {left: 308px; top: 2952.8124389648438px; width: 716px; border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-color: rgb(0, 0, 0); background-color: transparent; min-height: 57px; position: absolute;}.silex-id-1647529904860-4 {width: 959px; top: 0px; left: 0px; background-color: rgb(254, 255, 253); min-height: 261px; position: absolute;}.silex-id-1709239827434-9 {width: 1228px; height: 750px; position: absolute; top: -280px; left: -231px;}.silex-id-1709241816684-2 {width: 339px; height: 126px; position: absolute; top: 261.6000061035156px; left: 378px;}.silex-id-1709244024460-1 {background-color: rgba(0,0,0,1); left: 71px; top: 606.083251953125px; width: 145px; min-height: 45px; position: absolute;}.silex-id-1709275261175-0 {left: 113px; top: -3.862457275390625px; width: 130px; min-height: 53px; position: absolute; background-color: transparent;}.silex-id-1709276059237-1 {background-color: rgba(105,140,108,1); left: 0px; top: -17px; width: 1398px; min-height: 48px; position: absolute;}.silex-id-1709279161458-0 {width: 299px; min-height: 184px; position: absolute; top: 261px; left: 397px;}.silex-id-1709291631149-0 {background-color: rgba(52,190,97,1); border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-color: rgb(0, 0, 0); left: -604px; top: 142px; width: 1595px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; min-height: 55px; position: absolute;}.silex-id-1709291631149-1 {left: 183.60000610351562px; top: -0.3502197265625px; width: 103px; min-height: 53px; position: absolute; background-color: transparent;}.silex-id-1709291631149-2 {left: 309.0001220703125px; top: 12.966583251953125px; width: 90px; min-height: 57px; position: absolute;}.silex-id-1709291631149-3 {left: 426px; top: 12.299407958984375px; width: 59px; min-height: 30px; position: absolute;}.silex-id-1709291631149-4 {left: 549px; top: 12.066162109375px; width: 106px; min-height: 30px; position: absolute;}.silex-id-1709291928797-0 {width: 438px; min-height: 576px; background-color: rgba(5,1,4,1); position: absolute; top: -212px; left: 1023px;}.silex-id-1709680267208-7 {width: 1470px; height: 19px; position: absolute; top: 2883.4005126953125px; left: 11px; border-style: double;}.silex-id-1709797680923-1 {width: 1351px; height: 2094px; position: absolute; top: 780px; left: -34px;}@media only screen and (max-width: 480px) {.body-initial {background-position: top center; background-size: auto;}.silex-id-1552774272342-11 {top: 0px; left: 0px;}.silex-id-1552774272339-10 {min-height: 41px;}.silex-id-1552774225668-8 {left: -12px; top: 2572px;}.silex-id-1552774237438-9 {left: 121px; top: 2px; width: 295px; background-color: transparent; min-height: 23px;}.silex-id-1484949640479-7 {top: 422px; left: 0px;}.silex-id-1484949640479-6 {top: 0px; left: 12px; width: 445px; min-height: 2103px;}.silex-id-1434426485636-2 {width: 447px; top: 0px; left: 0px; min-height: 213px; margin-bottom: 40px; background-color: rgba(0,0,0,0.5019607843137255);}.silex-id-1434426485665-3 {width: 916px; top: 0px; left: 0px; margin-bottom: 40px; background-color: rgba(0,0,0,0.5019607843137255);}.silex-id-1434426787582-9 {top: 0px; left: 0px; width: 916px; margin-bottom: 40px; background-color: rgba(0,0,0,0.5019607843137255);}.silex-id-1434426613625-5 {width: 447px; top: 0px; left: 0px; min-height: 255.4666748046875px; margin-bottom: 40px; background-color: rgba(0,0,0,0.5019607843137255);}.silex-id-1434426613658-6 {top: 0px; left: 0px; width: 916px; margin-bottom: 40px; background-color: rgba(0,0,0,0.5019607843137255);}.silex-id-1538167171167-15 {top: 422px; left: 0px;}.silex-id-1538167171162-14 {top: 0px; left: 12px; width: 455px; min-height: 753px;}.silex-id-1538167211265-17 {top: 422px; left: 0px;}.silex-id-1538167211260-16 {top: 0px; left: 12px; width: 444px; min-height: 799px;}.silex-id-1471343044963-3 {top: 0px; left: 0px; width: 913px; min-height: 270px; background-color: rgba(0,0,0,0.5019607843137255); border-width: 5px 5px 5px 5px; border-style: solid; border-color: rgba(254,255,253,1); margin-bottom: 40px;}.silex-id-1425063986632 {top: 0px; left: 11px; width: 424px; min-height: 170px;}.silex-id-1647529904860-4 {top: 0px; left: 0px; width: 913px; min-height: 270px; background-color: rgba(0,0,0,0.5019607843137255); border-width: 5px 5px 5px 5px; border-style: solid; border-color: rgba(254,255,253,1); margin-bottom: 40px;}}</style>
+
+
+
+
+
+
+
+
+
+
+    <title>Food and drink template</title>
+    <meta name="description" content="The description displayed in search results">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Check this site, friends!">
+    <meta name="og:title" content="Check this site, friends!">
+    <meta name="twitter:description" content="The description displayed in social networks">
+    <meta name="og:description" content="The description displayed in social networks">
+    <meta name="twitter:image" content="http://localhost:6805/api/1.0/www/exec/get//tmp/food-and-drink/assets/lunch.jpg">
+    <meta name="og:image" content="http://localhost:6805/api/1.0/www/exec/get//tmp/food-and-drink/assets/lunch.jpg">
+    <meta name="twitter:site" content="@silexlabs">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" class="silex-custom-font"><link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" class="silex-custom-font"><meta name="viewport" content="width=device-width, initial-scale=1"><style class="silex-style-settings">.website-width {width: 770px;}@media (min-width: 481px) {.silex-editor {min-width: 970px;}}</style><style class="silex-prodotype-style" data-style-id="all-style">h1 {font-family: 'Lobster', Georgia, Times, serif; font-size: 80px; text-align: center;}h2 {font-family: 'Lobster', Georgia, Times, serif; text-align: center;}h3 {font-family: 'Lobster', Georgia, Times, serif; text-align: center;}.text-element > .silex-element-content {font-family: 'Cabin', Helvetica, Arial, sans-serif; font-weight: normal; color: #809899; background-color: #000000; border-style: hidden; border-width: 12px; border-color: #008000; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease;}p {line-height: 25px;}a {color: #000000; text-decoration: none;}[data-silex-href] {color: #000000; text-decoration: none;}@media only screen and (max-width: 480px) {h1 {color: #000000;}.text-element > .silex-element-content {font-size: 25px; color: #FFFFFF; padding-left: 20px; padding-right: 20px;}p {line-height: 30px; letter-spacing: 3px;}}</style><style class="silex-prodotype-style" data-style-id="nav">.nav.text-element > .silex-element-content {font-weight: bold; font-size: 14px; color: #020605; background-color: #f0f4f5; text-align: center; line-height: 27px; letter-spacing: 2px; column-rule-color: #404040; margin-top: 2px; border-style: hidden; border-width: 4px;}.nav a {text-decoration: none; line-height: 30px; padding-top: 7px; padding-left: 7px; padding-bottom: 7px; padding-right: 7px;}.nav [data-silex-href] {text-decoration: none; line-height: 30px; padding-top: 7px; padding-left: 7px; padding-bottom: 7px; padding-right: 7px;}.nav .page-link-active {color: #fefffd; background-color: #3D362D;}@media only screen and (max-width: 480px) {.nav a {line-height: 80px;}.nav [data-silex-href] {line-height: 80px;}.nav ul li {list-style-type: none; font-size: 2em; line-height: 2;}}</style><style class="silex-prodotype-style" data-style-id="header">.header.text-element > .silex-element-content {line-height: 2;}</style><style class="silex-prodotype-style" data-style-id="footer">.footer.text-element > .silex-element-content {color: #c7bcbc; background-color: #a7f28c; text-align: center;}.footer a {color: #000000;}.footer [data-silex-href] {color: #000000;}</style><style class="silex-prodotype-style" data-style-id="caption">.caption.text-element > .silex-element-content {text-align: center;}.caption a {color: #000000;}.caption [data-silex-href] {color: #000000;}</style></head>
+
+<body data-silex-id="body-initial" class="body-initial all-style enable-mobile prevent-resizable prevent-selectable editable-style silex-runtime" data-silex-type="container-element" style="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+<div data-silex-type="container-element" class="container-element editable-style silex-id-1552774272342-11 section-element hide-on-desktop prevent-resizable" data-silex-id="silex-id-1552774272342-11"><div data-silex-type="container-element" class="editable-style silex-id-1552774272339-10 container-element silex-element-content website-width" data-silex-id="silex-id-1552774272339-10"></div></div><header data-silex-type="container-element" class="container-element website-min-width editable-style silex-id-1484949224320-1 section-element prevent-resizable" data-silex-id="silex-id-1484949224320-1" style="">
+        
+    ﻿<div data-silex-type="container-element" class="editable-style silex-element-content website-width silex-id-1484949224320-0 container-element" data-silex-id="silex-id-1484949224320-0" style="">
+            
+            
+            
+        <div data-silex-type="text-element" class="editable-style silex-id-1552774225668-8 text-element prevent-resizable silex-component hide-on-desktop mobile-menu nav prevent-auto-z-index" data-silex-id="silex-id-1552774225668-8"><div class="silex-element-content normal"><style>.hamburger-menu_1709797182592_236 {position: absolute; z-index: 20;}.silex-editor .hamburger-menu_1709797182592_236 nav {left: -9999px;}.hamburger-menu_1709797182592_236 nav ul {margin-top: 80px;}.hamburger-menu_1709797182592_236 nav {opacity: 0; position: absolute; background-color: #ededed; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1709797182592_236.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1709797182592_236 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1709797182592_236.open .nav-container {}.hamburger-menu_1709797182592_236 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1709797182592_236 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
+      opacity 0.1s ease-in,
+      transform 0.1s ease-in,
+      background 0.1s ease-in;}.hamburger-menu_1709797182592_236.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1709797182592_236 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1709797182592_236.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1709797182592_236.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1709797182592_236 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1709797182592_236.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
+<!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
+<div class="hamburger-menu_1709797182592_236 closed">
+    <div class="hamburger-btn ">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="nav-container">
+      <div class="prevent-scale">
+        <nav class="">
+            <ul>
+            
+                <li><a href="#!page-home" class="page-link-active">Home</a></li>
+            
+                <li><a href="#!page-menu">Menu</a></li>
+            
+                <li><a href="#!page-team">Team</a></li>
+            
+                <li><a href="#!page-info">Info</a></li>
+            
+                <li><a href="https://www.silex.me/" target="_blank">External link</a></li>
+            
+            </ul>
+        </nav>
+      </div>
+  </div>
+</div>
+<script>
+(function() {
+  var isOpen = false;
+  function close() {
+    isOpen = false;
+    document.querySelector('.hamburger-menu_1709797182592_236').classList.remove('open');
+    document.querySelector('.hamburger-menu_1709797182592_236').classList.add('closed');
+  }
+  function open() {
+    isOpen = true;
+    document.querySelector('.hamburger-menu_1709797182592_236').classList.add('open');
+    document.querySelector('.hamburger-menu_1709797182592_236').classList.remove('closed');
+  }
+  function toggle() {
+    if(isOpen) close();
+    else open();
+  }
+  function scrollOrResize() {
+    close();
+    move();
+  }
+  var silexElement = document.querySelector('.hamburger-menu_1709797182592_236').closest('.editable-style');
+  function move() {
+    var data = window.silex
+    var rect = silexElement.getBoundingClientRect();
+    var offset = {
+      top: rect.top + data.scrollTop,
+      left: rect.left + data.scrollLeft,
+    };
+    var container = document.querySelector('.hamburger-menu_1709797182592_236 .nav-container');
+    container.style.transform = 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)';
+  }
+  document.querySelector('.hamburger-menu_1709797182592_236 .hamburger-btn').addEventListener('click', function() { toggle(); });
+  document.addEventListener('resize', scrollOrResize);
+  document.addEventListener('scroll', scrollOrResize);
+  scrollOrResize()
+  setTimeout(() => scrollOrResize(), 0)
+})();
+</script>
+</div></div><div data-silex-type="container-element" class="editable-style silex-id-1552774237438-9 container-element hide-on-desktop" data-silex-id="silex-id-1552774237438-9"></div><nav data-silex-type="container-element" class="editable-style container-element silex-id-1709291631149-0 hide-on-mobile page-plans paged-element page-team page-info" data-silex-id="silex-id-1709291631149-0" style=""><a data-silex-type="text-element" class="editable-style text-element silex-id-1709291631149-1 nav-element nav page-link-active" data-silex-id="silex-id-1709291631149-1" href="#!page-home" style=""><div class="silex-element-content normal"><p>New text box</p></div></a><a data-silex-type="text-element" class="editable-style text-element silex-id-1709291631149-2 nav-element nav" data-silex-id="silex-id-1709291631149-2" href="#!page-plans" style=""><div class="silex-element-content normal"><p>New text box</p></div></a><div data-silex-type="text-element" class="editable-style text-element silex-id-1709291631149-3 nav-element nav" data-silex-id="silex-id-1709291631149-3" title="" style=""><div class="silex-element-content normal">
+                            KIT <br>
+                        </div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1709291631149-4 nav-element nav" data-silex-id="silex-id-1709291631149-4" title="" style=""><div class="silex-element-content normal">
+                            <a href="#!page-info" class="">INFO</a></div></div><div data-silex-type="container-element" class="editable-style container-element silex-id-1709291928797-0" data-silex-id="silex-id-1709291928797-0" style=""></div></nav></div></header><section data-silex-type="container-element" class="container-element website-min-width editable-style silex-id-1484949640479-7 section-element prevent-resizable page-menu page-plans paged-element" data-silex-id="silex-id-1484949640479-7" style="">
+        <div data-silex-type="container-element" class="editable-style silex-element-content website-width silex-id-1484949640479-6 container-element" data-silex-id="silex-id-1484949640479-6" style="">
+            
+            <div data-silex-type="text-element" class="editable-style text-element paragraph silex-id-1434426485636-2" data-silex-id="silex-id-1434426485636-2" style="">
+                <div class="silex-element-content normal"><p><br></p>
+                    <h2>A Friendly Atmosphere&nbsp;</h2>
+                </div>
+            </div><div data-silex-type="text-element" class="editable-style text-element paragraph silex-id-1434426485665-3" data-silex-id="silex-id-1434426485665-3" style="">
+                <div class="silex-element-content normal">
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                        no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&nbsp;</p>
+                </div>
+            ﻿﻿﻿</div>
+            <div data-silex-type="container-element" class="editable-style silex-id-1434426787582-9 container-element" data-silex-id="silex-id-1434426787582-9" style=""></div>
+            <div data-silex-type="text-element" class="editable-style text-element paragraph silex-id-1434426613625-5" data-silex-id="silex-id-1434426613625-5" style="">
+                <div class="silex-element-content normal"><p></p><p><br></p><h2>With Real <br>People</h2></div>
+            </div>
+            <div data-silex-type="text-element" class="editable-style text-element paragraph silex-id-1434426613658-6" data-silex-id="silex-id-1434426613658-6" style="">
+                <div class="silex-element-content normal">
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                        no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </section><section data-silex-type="container-element" class="container-element editable-style silex-id-1538167171167-15 section-element prevent-resizable page-info paged-element" data-silex-id="silex-id-1538167171167-15"><div data-silex-type="container-element" class="editable-style silex-id-1538167171162-14 container-element silex-element-content website-width" data-silex-id="silex-id-1538167171162-14"><div data-silex-type="text-element" class="editable-style text-element silex-id-1647529904860-4 paragraph caption" data-silex-id="silex-id-1647529904860-4" title=""><div class="silex-element-content normal">
+                    <p>
+                        <br>
+                    </p>
+                    <h2>Nothing here yet. Waiting for your content...</h2>
+                </div></div></div></section><section data-silex-type="container-element" class="container-element editable-style silex-id-1538167211265-17 section-element prevent-resizable page-team paged-element" data-silex-id="silex-id-1538167211265-17"><div data-silex-type="container-element" class="editable-style silex-id-1538167211260-16 container-element silex-element-content website-width" data-silex-id="silex-id-1538167211260-16"><div data-silex-type="text-element" class="editable-style text-element paragraph silex-id-1471343044963-3 caption" data-silex-id="silex-id-1471343044963-3" style="">
+                <div class="silex-element-content normal">
+                    <p>
+                        <br>
+                    </p>
+                    <h2>Nothing here yet. Waiting for your content...</h2>
+                </div>
+            </div></div></section><section data-silex-type="container-element" class="container-element website-min-width editable-style silex-id-1484949486466-5 section-element prevent-resizable page-home paged-element" data-silex-id="silex-id-1484949486466-5" style="">
+        
+    <div data-silex-type="container-element" class="editable-style silex-element-content website-width silex-id-1484949486465-4 container-element" data-silex-id="silex-id-1484949486465-4" style="">
+            
+            
+            
+            
+            
+            
+        <div data-silex-type="image-element" class="editable-style image-element silex-id-1709239827434-9" data-silex-id="silex-id-1709239827434-9" style=""><img src="tag%20Zomade%2026.jpg"></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1709241816684-2" data-silex-id="silex-id-1709241816684-2" style=""><img src="chat3.jpg"></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1709279161458-0" data-silex-id="silex-id-1709279161458-0" style=""><div class="silex-element-content normal"><p>
+</p><h2>Open source Autoconstruction</h2><h2>&nbsp;et structure en kit </h2>
+
+<p></p></div></div><div data-silex-type="container-element" class="editable-style container-element silex-id-1709244024460-1 editable-plugin-created" data-silex-id="silex-id-1709244024460-1" title="" style=""></div></div><div data-silex-type="container-element" class="editable-style editable-plugin-created container-element silex-id-1434634331833-2" data-silex-id="silex-id-1434634331833-2" style="">
+
+                    
+                <nav data-silex-type="container-element" class="editable-style silex-id-1424710230648 container-element hide-on-mobile page-plans paged-element page-home" data-silex-id="silex-id-1424710230648" style="">
+                
+                
+                
+                
+            <div data-silex-type="container-element" class="editable-style container-element silex-id-1709276059237-1 editable-plugin-created" data-silex-id="silex-id-1709276059237-1" title="" style=""><div data-silex-type="text-element" class="editable-style text-element nav-element silex-id-1434634286307-1 nav" data-silex-id="silex-id-1434634286307-1" style="">
+                        <div class="silex-element-content normal">
+                            KIT <br>
+                        </div>
+                    </div><div data-silex-type="text-element" class="editable-style text-element nav-element silex-id-1434634331834-3 nav" data-silex-id="silex-id-1434634331834-3" style="">
+                        <div class="silex-element-content normal">
+                            <a href="#!page-info">INFO<i>﻿</i>&amp; Contact﻿﻿ ﻿</a></div>
+                    </div><a data-silex-type="text-element" class="editable-style text-element nav-element silex-id-1434425184890-0 nav" data-silex-id="silex-id-1434425184890-0" style="" href="#!page-plans">
+                        <div class="silex-element-content normal">Plans<br></div>
+                    </a><a data-silex-type="text-element" class="editable-style text-element silex-id-1709275261175-0 nav-element nav page-link-active" data-silex-id="silex-id-1709275261175-0" title="" style="" href="#!page-home"><div class="silex-element-content normal"><p>Acceuil<br></p></div></a></div></nav></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1709797680923-1" data-silex-id="silex-id-1709797680923-1" style=""><img src="pom.jpg"></div></section><div data-silex-type="image-element" class="editable-style image-element silex-id-1709680267208-7" data-silex-id="silex-id-1709680267208-7" style=""><img src="Visuel%20Structure%20Zomade.jpg"></div><div data-silex-type="text-element" class="editable-style silex-id-1425063986632 text-element footer" data-silex-id="silex-id-1425063986632" style="">
+                <div class="silex-element-content normal">
+                    <p><a href="http://www.silex.me/"><b>Powered by Silex</b></a><b>&nbsp;</b><a href="http://www.silex.me/"><b>website builder</b></a><b> -&nbsp;</b><a href="http://www.wix.com/demone2/city-bakery"><b>Inspired by this template</b></a><b>&nbsp;- </b><a href="https://unsplash.com/"><b>Photos from here</b></a><b>&nbsp;-
+                    </b><a href="http://www.colorcombos.com/color-schemes/253/ColorCombo253.html"><b>Color palete</b></a></p>
+                    
+                </div>
+            </div></body></html>
